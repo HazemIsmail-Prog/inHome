@@ -66,6 +66,23 @@ class PermissionSeeder extends Seeder
                 'name_en' => 'roles_delete',
                 'name_ar' => 'حذف الأدوار',
             ],
+
+            [
+                'name_en' => 'clients_view',
+                'name_ar' => 'عرض العملاء',
+            ],
+            [
+                'name_en' => 'clients_create',
+                'name_ar' => 'إنشاء العملاء',
+            ],
+            [
+                'name_en' => 'clients_update',
+                'name_ar' => 'تحديث العملاء',
+            ],
+            [
+                'name_en' => 'clients_delete',
+                'name_ar' => 'حذف العملاء',
+            ],
         ];
 
 

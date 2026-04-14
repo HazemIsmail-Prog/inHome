@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\ClientController;
 
 Route::post('/login', [AuthController::class, 'login']);
 
@@ -39,5 +40,13 @@ Route::group(['middleware' => ['auth:sanctum', 'is_active']], function () {
         Route::put('/roles/{role}', 'update');
         Route::delete('/roles/{role}', 'destroy');
         Route::get('roles/relatedLists', 'relatedLists');
+    });
+
+    // Clients
+    Route::controller(ClientController::class)->group(function () {
+        Route::get('/clients', 'index');
+        Route::post('/clients', 'store');
+        Route::put('/clients/{client}', 'update');
+        Route::delete('/clients/{client}', 'destroy');
     });
 });

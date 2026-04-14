@@ -137,5 +137,11 @@
     "Add New Role": "اضافة دور جديد",
     "Edit Role": "تعديل الدور",
     "multiSelectorNoItems": "لا يوجد خيارات متاحة.",
-    "Clear": "مسح"
+    "Clear": "مسح",
+    "Clients": "العملاء",
+    "Add New Client": "اضافة عميل جديد",
+    "Edit Client": "تعديل العميل",
+    "Phone": "الهاتف",
+    "Address": "العنوان",
+    "Notes": "الملاحظات"
 }

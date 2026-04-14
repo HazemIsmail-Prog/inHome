@@ -137,5 +137,11 @@
     "Add New Role": "Add New Role",
     "Edit Role": "Edit Role",
     "multiSelectorNoItems": "No items available.",
-    "Clear": "Clear"
+    "Clear": "Clear",
+    "Clients": "Clients",
+    "Add New Client": "Add New Client",
+    "Edit Client": "Edit Client",
+    "Phone": "Phone",
+    "Address": "Address",
+    "Notes": "Notes"
 }
