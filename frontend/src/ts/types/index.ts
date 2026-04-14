@@ -80,3 +80,14 @@ export interface ClientForm {
     address: string
     notes: string
 }
+
+export interface Store {
+    id: number
+    created_by: User
+    name: string
+}
+
+export interface StoreForm {
+    id?: number | null
+    name: string
+}

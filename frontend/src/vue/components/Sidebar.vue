@@ -61,6 +61,14 @@ const { translated } = useTranslateBackend()
                         :isActive="$route.name === 'clients'"
                         :to="{ name: 'clients' }"
                     />
+
+                    <NavItem
+                        v-if="auth.user?.can.includes('stores_view')"
+                        :icon="Users"
+                        :label="$t('Stores')"
+                        :isActive="$route.name === 'stores'"
+                        :to="{ name: 'stores' }"
+                    />
                     
                     <NavItem
                         class="mt-auto mb-3"

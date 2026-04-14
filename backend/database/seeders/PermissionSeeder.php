@@ -83,6 +83,22 @@ class PermissionSeeder extends Seeder
                 'name_en' => 'clients_delete',
                 'name_ar' => 'حذف العملاء',
             ],
+            [
+                'name_en' => 'stores_view',
+                'name_ar' => 'عرض المخازن',
+            ],
+            [
+                'name_en' => 'stores_create',
+                'name_ar' => 'إنشاء المخازن',
+            ],
+            [
+                'name_en' => 'stores_update',
+                'name_ar' => 'تحديث المخازن',
+            ],
+            [
+                'name_en' => 'stores_delete',
+                'name_ar' => 'حذف المخازن',
+            ],
         ];
 
 

@@ -143,5 +143,8 @@
     "Edit Client": "Edit Client",
     "Phone": "Phone",
     "Address": "Address",
-    "Notes": "Notes"
+    "Notes": "Notes",
+    "Stores": "Stores",
+    "Add New Store": "Add New Store",
+    "Edit Store": "Edit Store"
 }
