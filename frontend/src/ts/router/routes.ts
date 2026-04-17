@@ -6,8 +6,6 @@ import RolesIndex from '@/vue/pages/roles/Index.vue'
 import PreferencesView from '@/vue/pages/Preferences.vue'
 import UnauthorizedView from '@/vue/pages/Unauthorized.vue'
 import NotfoundView from '@/vue/pages/Notfound.vue'
-import ClientsIndex from '@/vue/pages/clients/Index.vue'
-import StoresIndex from '@/vue/pages/stores/Index.vue'
 
 
 export const routes = [
@@ -48,22 +46,6 @@ export const routes = [
           path: '/roles',
           name: 'roles',
           component: RolesIndex,
-          meta: {
-            requiresAuth: true,
-          },
-        },
-        {
-          path: '/clients',
-          name: 'clients',
-          component: ClientsIndex,
-          meta: {
-            requiresAuth: true,
-          },
-        },
-        {
-          path: '/stores',
-          name: 'stores',
-          component: StoresIndex,
           meta: {
             requiresAuth: true,
           },

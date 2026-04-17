@@ -63,31 +63,3 @@ export interface Role {
     name_ar: string
     permissions: Permission[]
 }
-
-export interface Client {
-    id: number
-    created_by: User
-    name: string
-    phone: string
-    address: string
-    notes: string
-}
-
-export interface ClientForm {
-    id?: number | null
-    name: string
-    phone: string
-    address: string
-    notes: string
-}
-
-export interface Store {
-    id: number
-    created_by: User
-    name: string
-}
-
-export interface StoreForm {
-    id?: number | null
-    name: string
-}
